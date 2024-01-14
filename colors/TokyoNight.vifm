@@ -1,0 +1,31 @@
+highlight clear
+
+" Set background to transparent
+highlight Win cterm=none ctermfg=white ctermbg=none
+
+highlight Directory cterm=bold ctermfg=blue ctermbg=none
+highlight Link cterm=bold ctermfg=yellow ctermbg=none
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=none
+highlight HardLink cterm=none ctermfg=yellow ctermbg=none
+highlight Socket cterm=bold ctermfg=magenta ctermbg=none
+highlight Device cterm=bold ctermfg=red ctermbg=none
+highlight Fifo cterm=bold ctermfg=blue ctermbg=none
+highlight Executable cterm=bold ctermfg=green ctermbg=none
+highlight Selected cterm=bold ctermfg=magenta ctermbg=none
+highlight CurrLine cterm=bold,reverse ctermfg=none ctermbg=black
+highlight TopLine cterm=none ctermfg=blue ctermbg=none
+highlight TopLineSel cterm=bold ctermfg=blue ctermbg=none
+highlight StatusLine cterm=bold ctermfg=blue ctermbg=none
+highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
+highlight CmdLine cterm=none ctermfg=white ctermbg=black
+highlight ErrorMsg cterm=none ctermfg=red ctermbg=black
+highlight Border cterm=none ctermfg=blue ctermbg=none
+highlight OtherLine ctermfg=none ctermbg=none
+highlight JobLine cterm=bold,reverse ctermfg=blue ctermbg=none
+highlight SuggestBox cterm=bold ctermfg=none ctermbg=none
+highlight CmpMismatch cterm=bold ctermfg=blue ctermbg=red
+highlight CmpUnmatched cterm=bold ctermfg=blue ctermbg=green
+highlight CmpBlank ctermfg=none ctermbg=none
+highlight AuxWin ctermfg=none ctermbg=none
+highlight TabLine cterm=none ctermfg=blue ctermbg=none
+highlight TabLineSel cterm=bold,reverse ctermfg=none ctermbg=blue
